@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.4)  4 NOV 2017 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.4)  4 NOV 2017 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -534,7 +534,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  11998 strings out of 493013
  175160 string characters out of 6135682
- 301013 words of memory out of 5000000
+ 301006 words of memory out of 5000000
  15344 multiletter control sequences out of 15000+600000
  64819 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -545,10 +545,10 @@ hare/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (1 page, 149894 bytes).
+Output written on main.pdf (1 page, 149924 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  23057 words of extra memory for PDF output out of 24883 (max. 10000000)
 
