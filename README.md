@@ -8,6 +8,6 @@ I keep my resume in latex. It makes it easier for me to:
 # Ubuntu 16.04
 
 ```
-sudo apt install texlive-full
+sudo apt install texlive-full texlive-latex-extra
 pdflatex main.pdf
 ```
