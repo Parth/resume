@@ -15,22 +15,25 @@
 
 \begin{document}
 
+\quote{I enjoy writing software in environments that prioritize \\ correctness, performance and security.}
+
 \makecvtitle
 
 \section{Experience}
 \cventry{2019--Present}{Gemini}{}{Exchange Engineer}{}{
-	\textit{Gemini is a cryptocurrency exchange with a focus on serving institutional customers. Institutional customers demand high availability, low latency, and the ability to store large amounts of digital assets.}
+	\textit{Gemini is a high-availability, low latency cryptocurrency exchange and custodian with a focus on serving institutional customers. Gemini utilizes React, Scala and Postgres.}
 	\begin{itemize}
-		\item \underline{Growth Team} - I focussed on unifying Gemini's data aquisition strategy, across teams, products, and platforms. Unifying these tools vastly improved the quality of data available to leadership
-		\item \underline{Gemini Pay} - Engineered a backend enables Gemini's 2M+ customers to spend their crypto at several businesses across the country.
-		\item \underline{Exchange Team} - Rewriting the matching engine to support lower latency, and higher availability. Develop performance oriented components in a fault tolerant distributed system.
+		\item \underline{Growth Team} - Unified Gemini's data acquisition strategy, across teams, products, and platforms. Vastly improved the quality of behavioral data available to leadership. Required contributing code to each component in our stack, syncing db state to Mixpanel Analytics.
+		\item \underline{Gemini Pay} - As the sole backend engineer, on an aggressive timeline, built a payment system that enables Gemini's 2M+ customers to spend their crypto at several businesses across the country. Helped define and ultimately consume rpc contracts specified by merchants.
+		\item \underline{Exchange Team} - Joined the effort to rewrite our matching engine as a highly available fault tolerant distributed system. Authored several performance oriented components and libraries.
 	\end{itemize}
 }
 \cventry{2018--Present}{Lockbook.app}{}{Founder}{}{
 	\textit{Lockbook is an end to end encrypted document editing and sharing platform.}
 	\begin{itemize}
-		\item With our focus on quality we create native applications for each platform. To maximize code re-use, I created a "Core" library written in Rust that clients can use via FFI/JNI.
-		\item Requires proficiency with C\#, Swift, Kotlin, and Rust.
+		\item Designed whole application stack with attention to security, stability and scalability.
+		\item Implemented a shared client library in Rust which manages local state and cross-device synchronization of encrypted document content and metadata.
+		\item Contributed significantly to CLI (Rust), Windows (C\#/UWP), iOS (Swift), and Android (Kotlin) clients which interop with shared client library via FFI/JNI.
 		\item AES \& RSA cryptography primitives are used for encryption, key sharing, authentication, and signature verification.
 		\item All work is fully open source (github.com/lockbook/lockbook). Started as a script to encrypt and decrypt a folder and organically grew as more people began to share the vision of a better place to store thoughts and collaborate with others.
 	\end{itemize}
@@ -39,8 +42,8 @@
 \cventry{2018--2019}{JP Morgan}{}{Asset and Wealth Management: Model Management}{\underline{Full Stack Engineer}}{
 	\textit{The Model Management creates tools for portfolio management. The tools help advisors craft portfolios that meet the constraints of our clients.}
 \begin{itemize}
-	\item Used React, Spring, OracleDB for general Full Stack development. Worked on tasks that helped our stores of state stay up to date with various streams of market information.
-	\item Was appointed \underline{Scrum Master} for the Model Management development team. Ran sprint planning, retrospectives, daily stand-ups and other scrum rituals. Key objective was to control drift between goals and outcomes.
+	\item Used React, Spring, OracleDB for general Full Stack development. Created market data ETL's.
+	\item Was appointed \underline{Scrum Master} for the Model Management development team. Ran sprint planning, retrospectives, daily stand-ups and other scrum rituals. Cut standup time from 35 minutes to 5 minutes. Key objective was to control drift between goals and outcomes.
 \end{itemize}
 }
 
@@ -54,13 +57,5 @@
 
 \cventry{2010-Present}{Multiple other projects}{including published apps, startups, video content and a pending patent, are listed at \link{parthmehrotra.com}}{}{}{}
 
-\section{Academics}
-
-\cventry{2014--2018}{Rutgers University, New Brunswick}{\underline{B.S. Computer Science}}{}{}{
-	\begin{itemize}
-		\item Coursework in Data Structures, Algorithms, Computer Architecture, Systems Engineering, Principals of Programming Languages, and Internet Technologies.
-		\item Independent Study on Autonomous Vehicles with Prof. Peter Jin (Intelligent Transportation Systems) and Prof. Kostas Bekris (Artificial Intelligence).
-	\end{itemize}
-}
 
 \end{document}
